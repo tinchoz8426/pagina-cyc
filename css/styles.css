@@ -21,7 +21,6 @@
 }
 
 .card{
-    background-color: #e6e6e6;
     transition: ease-in-out 0.5s;
 }
 .card:hover{
