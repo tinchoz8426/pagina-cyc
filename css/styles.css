@@ -1,0 +1,60 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Buttons */
+.btn{
+    background-color: rgba(255,175,0.255);
+    color: rgb(242,241,241);
+}
+
+/* Text color (cards and title)*/
+.card-title, 
+.card-sale,
+.choose-text{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(25, 46, 75);
+}
+
+/* Icons */
+.bi-house-door, .bi-geo-alt{
+    color: rgba(255,175,0.255);
+}
+
+.card{
+    background-color: #e6e6e6;
+    transition: ease-in-out 0.5s;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+
+
+.header-title, 
+.featured-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.header-title::after,
+.featured-title::after{
+    display:block;
+    content : "";
+    position: relative;
+    left    : 0;
+    bottom  : 0;
+    max-width:250px;
+    height  : 1px;
+    width   : 15%;
+    border-bottom:1px solid #ffaf00;;
+    margin:0;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+}
+
+
+.card-img-top {
+    /* width: 100%;
+    height: 40vh;
+    object-fit: cover; */
+    border-radius: 10px;
+}
